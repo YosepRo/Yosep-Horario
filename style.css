@@ -1,0 +1,46 @@
+body {
+    
+    background-image:  url(img/fondo1.jpg);
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
+}
+h1 {
+    color: azure;
+    text-align: center;
+   
+}
+
+table {
+
+    width: 80%; 
+    margin: 20px auto;
+    border-collapse: blue;
+    border: 2px solid blue;
+}
+
+table tr {
+    height: 50px; 
+}
+
+tr:first-child th {
+    color: rgb(75, 213, 218); 
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+    background-color: transparent; 
+}
+
+table td ,th {
+    color: white;
+}
+.box{
+    width:  auto;
+    background-color: rgba(0, 0, 0, .4) ;
+    margin: 0 auto;
+    margin-top: 2%;
+
+}
